@@ -9,7 +9,7 @@ pipeline{
         }
         stage('Install dependencies'){
             steps{
-                bat 'npm insatll'
+                bat 'npm install'
             }
         }
         stage('Run application'){
