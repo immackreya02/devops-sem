@@ -4,7 +4,7 @@ pipeline{
         stage('Checkout'){
             steps{
                 git branch : 'main',
-                url : 'https://github.com/immackreya02/devops-sem-lab.git'
+                url : 'https://github.com/immackreya02/devops-sem.git'
             }
         }
         stage('Install dependencies'){
